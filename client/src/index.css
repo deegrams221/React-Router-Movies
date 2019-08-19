@@ -5,6 +5,16 @@ body {
   background-color: #f2f2f2;
 }
 
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .movie-card {
   background-color: #fff;
   border: 0;

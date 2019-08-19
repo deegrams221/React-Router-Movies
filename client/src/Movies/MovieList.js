@@ -17,7 +17,7 @@ const MovieList = props => {
     }
     
     getMovies();
-  }, []);
+  }, [props.match.params.id]);
   
   return (
     <div className="movie-list">
